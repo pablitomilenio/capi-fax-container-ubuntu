@@ -11,7 +11,7 @@ Node.js for developing a backend that can receive an input and send a fax from t
 
 Steps:
 
-1) first compile the Dockerfile into a container named "fax-containerbase"
+1) first compile the Dockerfile into an image named "fax-containerbase"
 2) go to docker desktop and create a new development environment (beta feature)
 3) choose this github repository link in the options of docker desktop ( https://github.com/pablitomilenio/capi-fax-container-ubuntu.git )
 4) open the environment in visual studio code
