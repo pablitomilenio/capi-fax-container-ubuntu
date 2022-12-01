@@ -1,0 +1,11 @@
+{
+  "name": "fax-container",
+  "version": "1.0.0",
+  "description": "A docker container for sending faxes via ubuntu 18",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
