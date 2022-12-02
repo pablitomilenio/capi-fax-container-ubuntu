@@ -6,6 +6,5 @@ services:
     ports:
       - "8081:80"
     image: fax-containerbase
-    command: git config --global --add safe.directory /com.docker.devenvironments.code
     # the following command keeps the container running forever:
     command: tail -F anything
