@@ -3,6 +3,9 @@ wget http://launchpadlibrarian.net/461419922/roger-router-cli_1.8.14-5_amd64.deb
 dpkg -i roger-router-cli_1.8.14-5_amd64.de
 apt-get -f install
 
-
 # Graphical Interface: 
 flatpak run org.tabos.roger
+
+
+apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+apt-get install ffmpeg libav-tools

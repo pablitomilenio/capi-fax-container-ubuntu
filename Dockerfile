@@ -17,6 +17,6 @@ RUN git config --global --add safe.directory /com.docker.devenvironments.code
 RUN apt-get -f install
 
 # Uncomment the following 3 lines for the Roger Router GUI
-# RUN apt-get install -y flatpak 
-# RUN flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-# RUN flatpak install -y https://dl.flathub.org/repo/appstream/org.tabos.roger.flatpakref
+RUN apt-get install -y flatpak 
+RUN flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+RUN flatpak install -y https://dl.flathub.org/repo/appstream/org.tabos.roger.flatpakref
