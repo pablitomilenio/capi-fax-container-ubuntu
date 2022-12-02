@@ -4,6 +4,12 @@ FritzBox Nummer: 03062200815
 ./roger_cli -s -f Test-Fax-PDF.pdf -n 03062200815
 
 
+https://zignar.net/2012/04/16/capifax/
+
+
+
+
+
 #Ubuntu Packager Lib Router Manager
 https://packages.ubuntu.com/kinetic/arm64/librm0
 
@@ -23,3 +29,10 @@ make configure
 make all
 
 make install
+
+----
+
+flatpak install flathub org.tabos.roger
+
+
+https://manpages.ubuntu.com/manpages/trusty/man1/ffgtk.1.html
