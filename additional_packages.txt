@@ -9,3 +9,10 @@ flatpak run org.tabos.roger
 
 apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
 apt-get install ffmpeg libav-tools
+
+
+
+TEMP_DEB="$(mktemp)" &&
+wget -O "$TEMP_DEB" 'http://path.to/my.deb' &&
+sudo dpkg -i "$TEMP_DEB"
+rm -f "$TEMP_DEB"
