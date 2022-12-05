@@ -3,6 +3,16 @@ FritzBox Nummer: 03062200815
 
 ./roger_cli -s -f Test-Fax-PDF.pdf -n 03062200815
 
+./roger_cli --sendfax --number 053149059113 --file ~/Documents/roger_cli.pdf  -d
+
+#
+roger is installed in /usr/bin/roger_cli
+
+run the symlink with ./roger_cli
+
+dont forget the ./
+#
+
 
 https://zignar.net/2012/04/16/capifax/
 
@@ -37,3 +47,5 @@ flatpak install flathub org.tabos.roger
 
 
 https://manpages.ubuntu.com/manpages/trusty/man1/ffgtk.1.html
+
+http://launchpadlibrarian.net/141021811/ffgtk_0.8.1-2ubuntu3_amd64.deb

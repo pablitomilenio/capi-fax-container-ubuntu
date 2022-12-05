@@ -1,6 +1,6 @@
 # Command Line Interface
 wget http://launchpadlibrarian.net/461419922/roger-router-cli_1.8.14-5_amd64.deb
-dpkg -i roger-router-cli_1.8.14-5_amd64.de
+dpkg -i roger-router-cli_1.8.14-5_amd64.deb
 apt-get -f install
 
 # Graphical Interface: 
