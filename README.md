@@ -16,4 +16,4 @@ Steps:
 3) choose this github repository link in the options of docker desktop ( https://github.com/pablitomilenio/capi-fax-container-ubuntu.git )
 4) open the environment in visual studio code
 5) open the vs-code git-bash terminal
-6) run capiinfo
+6) run ./roger_cli --sendfax --number 053149059113 --file ~/Documents/roger_cli.pdf  -d
